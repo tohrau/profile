@@ -8,4 +8,5 @@ lmk if u guys have any comments or anything ig idk 😭😭
 
 
 main page ⤵
-https://tohrau.github.io/profile/Main.html
+
+[main page](https://tohrau.github.io/profile/Main.html)
