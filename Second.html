@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socials</title>
+<style>
+    body {
+        background-color: #0b0e14;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 0 40px 0;
+    }
+
+    /* Banner Image: Spans 100% full screen width */
+    .banner-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Centered Container for all page content */
+    .content-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Text Details */
+    h1 {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+
+    p, ul {
+        color: #d1d5db;
+        line-height: 1.6;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    a {
+        color: #58a6ff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Buttons */
+    .button-row {
+        display: flex;
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .nav-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #536471;
+        padding: 8px 20px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .nav-btn:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+</style>
+</head>
+<body>
+
+    <!-- Full width banner across the top -->
+    <img src="main banner.jpg" class="banner-img">
+
+    <!-- Centered content block underneath -->
+    <div class="content-wrapper">
+        <h1>Socials n etc</h1>
+
+        <ul>
+            <li>Discord: <a href="#">Here</a></li>
+            <li>Steam: <a href="#">Here</a></li>
+            <li>GitHub: <a href="#">Here</a></li>
+            <li>Instagram: <a href="#">Here</a></li>
+        </ul>
+
+        <p>Thats pretty much all of my socials tbh (^._.^)</p>
+
+        <div class="button-row">
+            <button class="nav-btn" onclick="window.location.href='Main.html'">
+                Back to main page
+            </button>
+            
+            <button class="nav-btn" onclick="window.location.href='Third.html'">
+                Next page
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>

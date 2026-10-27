@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The end</title>
+<style>
+    body {
+        background-color: #0b0e14;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 0 40px 0;
+    }
+
+    /* Banner Image: Spans 100% full screen width */
+    .banner-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Centered Container for all page content */
+    .content-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Text Details */
+    h1 {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+
+    p {
+        color: #d1d5db;
+        line-height: 1.5;
+    }
+
+    /* Tweet Card Styling */
+    .tweet-card {
+        background: #151821;
+        border: 1px solid #2f3336;
+        border-radius: 12px;
+        padding: 15px;
+        margin: 20px 0;
+    }
+
+    .tweet-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .tweet-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+
+    .tweet-user-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tweet-name {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .tweet-handle {
+        color: #71767b;
+        font-size: 13px;
+    }
+
+    .tweet-text {
+        font-size: 14px;
+        margin-bottom: 12px;
+        color: #ffffff;
+    }
+
+    .tweet-img {
+        width: 100%;
+        border-radius: 8px;
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+    /* Buttons */
+    .button-row {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .nav-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #536471;
+        padding: 8px 20px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .nav-btn:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+</style>
+</head>
+<body>
+
+    <!-- Full width banner across the top -->
+    <img src="wrap.gif" class="banner-img">
+
+    <!-- Centered content block underneath -->
+    <div class="content-wrapper">
+        <h1>Well thats a wrap folks</h1>
+        
+        <p>
+            Thanks for checking out my website, I hope you enjoyed it i guess?? but uh if u wanna contact me or something js go back to 2nd slide for my socials. lmk.
+        </p>
+
+        <div class="tweet-card">
+            <div class="tweet-header">
+                <img src="shitpost pfp.jpg" alt="Avatar" class="tweet-avatar">
+                <div class="tweet-user-info">
+                    <span class="tweet-name">azaelhorns</span>
+                    <span class="tweet-handle">@azaelhorns</span>
+                </div>
+            </div>
+            
+            <p class="tweet-text">I hope nb inspect elements my terrible code to figure out how I centered a div (although i gen took my ENTIRE flow off twitter's design)</p>
+            <img src="bs screenshot.png" alt="Shitpost Image" class="tweet-img">
+        </div>
+
+        <div class="button-row">
+            <button class="nav-btn" onclick="window.location.href='Main.html'">
+                Back to start
+            </button>
+            
+            <button class="nav-btn" onclick="window.location.href='Second.html'">
+                Back
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+<style>
+    body {
+        background-color: #0b0e14;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 0 40px 0;
+    }
+
+    /* Banner Image: Spans 100% full screen width */
+    .banner-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Centered Container for all profile content */
+    .content-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Lower section for avatar */
+    .profile-info-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: -50px; /* Pulls avatar up into the banner */
+        margin-bottom: 15px;
+    }
+
+    /* Circular Avatar */
+    .avatar-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 4px solid #0b0e14; /* Matches body background */
+        object-fit: cover;
+        background-color: #000;
+    }
+
+    /* Text Details */
+    .display-name {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .handle {
+        font-size: 14px;
+        color: #71767b;
+        margin: 4px 0 0 0;
+    }
+
+    /* Action Button */
+    .action-btn {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #536471;
+        padding: 8px 18px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        margin-top: 15px;
+    }
+
+    .action-btn:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+</style>
+</head>
+<body>
+
+    <!-- Full width banner -->
+    <img src="main banner.jpg" class="banner-img">
+
+    <!-- Centered content block -->
+    <div class="content-wrapper">
+        
+        <div class="profile-info-row">
+            <img src="haimiya.webp" class="avatar-img">
+        </div>
+
+        <div class="user-details">
+            <h1 class="display-name">tohrau</h1>
+            <p class="handle">live life how you want to man... <img src="complacent.png" alt="happy emoji" style="height: 1.1em; vertical-align: middle;"></p>
+        </div>
+
+        <h1>Welcome to My Web Page buddy.</h1>
+
+        <p>- I'm 17 as of rn (10/26/2026)</p>
+        <p>- I plan to be a cs major but lowk questioning it rn #fuckthatjobmarket</p>
+        <p>- I have probably spent $2000+ on steam and I have no regrets (oh and 1k+ hours on brawlhalla).</p>
+        <p>- I dont think you even care about this but ill still put more info I guess</p>
+        <p>Current status: learning unity (c#) out of boredom and java for AP CSA</p>
+
+        <button class="action-btn" onclick="window.location.href='Second.html'">
+            Next page
+        </button>
+
+    </div>
+
+</body>
+</html>
