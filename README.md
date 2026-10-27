@@ -7,6 +7,4 @@ btw i took HEAVY inspiration from twitter's theme system as i tried to recreate 
 lmk if u guys have any comments or anything ig idk 😭😭
 
 
-main page ⤵
-
-[main page](https://tohrau.github.io/profile/Main.html)
+link to main page in the hyperlink here: [main page](https://tohrau.github.io/profile/Main.html)
