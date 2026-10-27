@@ -5,3 +5,7 @@ uh so essentially this is just a website for me to like share things about mysel
 btw i took HEAVY inspiration from twitter's theme system as i tried to recreate it 1:1 
 
 lmk if u guys have any comments or anything ig idk 😭😭
+
+
+main page ⤵
+https://tohrau.github.io/profile/Main.html
